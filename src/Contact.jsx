@@ -13,7 +13,6 @@ const Contact = () => {
 
         setinput((values)=>({...values, [name]:value}))
 
-
     }
     const handle=()=>{
         let api="http://localhost:3000/student";

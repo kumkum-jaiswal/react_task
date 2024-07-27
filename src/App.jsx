@@ -1,8 +1,10 @@
-import { BrowserRouter, Routes, Route  } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home";
+import Insert from "./Insert";
+import Display from "./Display";
 import About from "./About";
-import Contact from "./Contact";
+import UseSta from "./UseSta";
 
 const App = () => {
   return ( 
@@ -11,17 +13,21 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout/>}>
         <Route index element={<Home/>}/>
-        <Route path="home" element={<Home/>}/>
-        <Route path="about" element={<About/>}/>
-        <Route path="contact" element={<Contact/>}/>
-
+        <Route path="/home" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/insert" element={<Insert/>}/>
+        <Route path="/display" element={<Display/>}/>
+        <Route path="/Usesta" element={<UseSta/>}/>
 
         </Route>
       </Routes>
     </BrowserRouter>
-
     </>
    );
 }
  
 export default App;
+
+
+
+                                                                  

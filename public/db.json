@@ -1,0 +1,38 @@
+{
+  "stu": [
+    {
+      "id": "1",
+      "rollno": 121,
+      "name": "kumkum",
+      "city": "bhopal",
+      "fees": 14522
+    },
+    {
+      "id": "af56",
+      "rollno": "456",
+      "name": "Neha",
+      "city": "4563",
+      "fees": "78965"
+    },
+    {
+      "id": "6a2b",
+      "rollno": "455",
+      "name": "jaiswal",
+      "city": "Jabulpur",
+      "fees": "45623"
+    },
+    {
+      "id": "4aa4",
+      "rollno": "501",
+      "name": "Kashvi",
+      "city": "Delhi",
+      "fees": "78965"
+    },
+    {
+      "id": "b7d3",
+      "rollno": "502",
+      "name": "Monika",
+      "city": "Jabulpur"
+    }
+  ]
+}
